@@ -1,0 +1,10 @@
+name = "Reyna"
+  
+if len(name) < 3:
+    print("Must be at least 3 characters")
+
+elif len(name) > 50:
+        print("Maximum 50 characters")
+
+elif len(name) <= 50:
+        print("Name looks good!")
